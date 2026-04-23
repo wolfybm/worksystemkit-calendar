@@ -1,0 +1,313 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//WorkSystemKit//Work Calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:WorkSystemKit
+X-WR-TIMEZONE:UTC
+X-PUBLISHED-TTL:PT1H
+
+BEGIN:VEVENT
+UID:worksyemkit-rec-planning@openclaw
+DTSTART;TZID=UTC:20260427T090000Z
+RRULE:FREQ=WEEKLY;BYDAY=MO
+SUMMARY:[Recurring] Week Start Planning
+DESCRIPTION:Review week's tasks\, adjust priorities\, assign work
+CATEGORIES:Planning
+STATUS:CONFIRMED
+END:VEVENT
+
+BEGIN:VEVENT
+UID:worksyemkit-rec-publish@openclaw
+DTSTART;TZID=UTC:20260429T170000Z
+RRULE:FREQ=WEEKLY;BYDAY=WE
+SUMMARY:[Recurring] Publishing Deadline
+DESCRIPTION:Article must be live by end of day Wednesday
+CATEGORIES:Deadline
+STATUS:CONFIRMED
+END:VEVENT
+
+BEGIN:VEVENT
+UID:worksyemkit-rec-review@openclaw
+DTSTART;TZID=UTC:20260424T160000Z
+RRULE:FREQ=WEEKLY;BYDAY=FR
+SUMMARY:[Recurring] Week Review
+DESCRIPTION:Check completed tasks\, update calendar status
+CATEGORIES:Review
+STATUS:CONFIRMED
+END:VEVENT
+
+BEGIN:VEVENT
+UID:worksyemkit-rec-report@openclaw
+DTSTART;TZID=UTC:20260426T180000Z
+RRULE:FREQ=WEEKLY;BYDAY=SU
+SUMMARY:[Recurring] Weekly Report to Mike
+DESCRIPTION:Summary of week's progress sent to Mike
+CATEGORIES:Report
+STATUS:CONFIRMED
+END:VEVENT
+
+BEGIN:VEVENT
+UID:worksyemkit-001@openclaw
+DTSTART;TZID=UTC:20260423T170000Z
+DTEND;TZID=UTC:20260423T180000Z
+SUMMARY:[WSK] 3 articles completed — Claire\, Mason\, Adrian
+DESCRIPTION:[WSK] 3 articles completed\nOwner: Claire\, Mason\, Adrian\nStatus: ✅ Done\nNotes: Export package ready for review
+CATEGORIES:Work
+STATUS:CONFIRMED
+DTSTAMP:20260423T215120Z
+END:VEVENT
+
+BEGIN:VEVENT
+UID:worksyemkit-002@openclaw
+DTSTART;TZID=UTC:20260424T170000Z
+DTEND;TZID=UTC:20260424T180000Z
+SUMMARY:[WSK] Hostinger hosting setup — Dave
+DESCRIPTION:[WSK] Hostinger hosting setup\nOwner: Dave\nStatus: ⏳ Scheduled\nNotes: WordPress + GeneratePress install
+CATEGORIES:Infrastructure
+STATUS:TENTATIVE
+DTSTAMP:20260423T215120Z
+END:VEVENT
+
+BEGIN:VEVENT
+UID:worksyemkit-003@openclaw
+DTSTART;TZID=UTC:20260425T170000Z
+DTEND;TZID=UTC:20260425T180000Z
+SUMMARY:[WSK] Apply to Zapier Partner Program — Coach
+DESCRIPTION:[WSK] Apply to Zapier Partner Program\nOwner: Coach\nStatus: ⏳ Scheduled\nNotes: High priority — highest conversion
+CATEGORIES:Affiliate
+STATUS:TENTATIVE
+DTSTAMP:20260423T215120Z
+END:VEVENT
+
+BEGIN:VEVENT
+UID:worksyemkit-004@openclaw
+DTSTART;TZID=UTC:20260425T170000Z
+DTEND;TZID=UTC:20260425T180000Z
+SUMMARY:[WSK] Apply to Make Affiliate Program — Coach
+DESCRIPTION:[WSK] Apply to Make Affiliate Program\nOwner: Coach\nStatus: ⏳ Scheduled\nNotes: Budget alternative to Zapier
+CATEGORIES:Affiliate
+STATUS:TENTATIVE
+DTSTAMP:20260423T215120Z
+END:VEVENT
+
+BEGIN:VEVENT
+UID:worksyemkit-005@openclaw
+DTSTART;TZID=UTC:20260426T170000Z
+DTEND;TZID=UTC:20260426T180000Z
+SUMMARY:[WSK] Review export package feedback — Mike
+DESCRIPTION:[WSK] Review export package feedback\nOwner: Mike\nStatus: ⏳ Scheduled\nNotes: Third-party review responses
+CATEGORIES:Review
+STATUS:TENTATIVE
+DTSTAMP:20260423T215120Z
+END:VEVENT
+
+BEGIN:VEVENT
+UID:worksyemkit-006@openclaw
+DTSTART;TZID=UTC:20260428T170000Z
+DTEND;TZID=UTC:20260428T180000Z
+SUMMARY:[WSK] Apply to Notion Affiliate Program — Coach
+DESCRIPTION:[WSK] Apply to Notion Affiliate Program\nOwner: Coach\nStatus: ⏳ Scheduled\nNotes: P1 priority
+CATEGORIES:Affiliate
+STATUS:TENTATIVE
+DTSTAMP:20260423T215120Z
+END:VEVENT
+
+BEGIN:VEVENT
+UID:worksyemkit-007@openclaw
+DTSTART;TZID=UTC:20260428T170000Z
+DTEND;TZID=UTC:20260428T180000Z
+SUMMARY:[WSK] Apply to ClickUp Affiliate Program — Coach
+DESCRIPTION:[WSK] Apply to ClickUp Affiliate Program\nOwner: Coach\nStatus: ⏳ Scheduled\nNotes: P1 priority
+CATEGORIES:Affiliate
+STATUS:TENTATIVE
+DTSTAMP:20260423T215120Z
+END:VEVENT
+
+BEGIN:VEVENT
+UID:worksyemkit-008@openclaw
+DTSTART;TZID=UTC:20260430T170000Z
+DTEND;TZID=UTC:20260430T180000Z
+SUMMARY:[WSK] Article #001 publish target — Dave
+DESCRIPTION:[WSK] Article #001 publish target\nOwner: Dave\nStatus: ⏳ Scheduled\nNotes: Best Freelance Tools 2026
+CATEGORIES:Work
+STATUS:TENTATIVE
+DTSTAMP:20260423T215120Z
+END:VEVENT
+
+BEGIN:VEVENT
+UID:worksyemkit-009@openclaw
+DTSTART;TZID=UTC:20260501T170000Z
+DTEND;TZID=UTC:20260501T180000Z
+SUMMARY:[WSK] Apply to FreshBooks Affiliate — Coach
+DESCRIPTION:[WSK] Apply to FreshBooks Affiliate\nOwner: Coach\nStatus: ⏳ Scheduled\nNotes: P2 priority
+CATEGORIES:Affiliate
+STATUS:TENTATIVE
+DTSTAMP:20260423T215120Z
+END:VEVENT
+
+BEGIN:VEVENT
+UID:worksyemkit-010@openclaw
+DTSTART;TZID=UTC:20260501T170000Z
+DTEND;TZID=UTC:20260501T180000Z
+SUMMARY:[WSK] Apply to Toggl Affiliate — Coach
+DESCRIPTION:[WSK] Apply to Toggl Affiliate\nOwner: Coach\nStatus: ⏳ Scheduled\nNotes: P2 priority
+CATEGORIES:Affiliate
+STATUS:TENTATIVE
+DTSTAMP:20260423T215120Z
+END:VEVENT
+
+BEGIN:VEVENT
+UID:worksyemkit-011@openclaw
+DTSTART;TZID=UTC:20260505T170000Z
+DTEND;TZID=UTC:20260505T180000Z
+SUMMARY:[WSK] Article #002 publish target — Dave
+DESCRIPTION:[WSK] Article #002 publish target\nOwner: Dave\nStatus: ⏳ Scheduled\nNotes: Notion vs ClickUp 2026
+CATEGORIES:Work
+STATUS:TENTATIVE
+DTSTAMP:20260423T215120Z
+END:VEVENT
+
+BEGIN:VEVENT
+UID:worksyemkit-012@openclaw
+DTSTART;TZID=UTC:20260507T170000Z
+DTEND;TZID=UTC:20260507T180000Z
+SUMMARY:[WSK] Article #002 hard deadline — Mason
+DESCRIPTION:[WSK] Article #002 hard deadline\nOwner: Mason\nStatus: ⏳ Scheduled\nNotes: Final submission date
+CATEGORIES:Work
+STATUS:TENTATIVE
+DTSTAMP:20260423T215120Z
+END:VEVENT
+
+BEGIN:VEVENT
+UID:worksyemkit-013@openclaw
+DTSTART;TZID=UTC:20260512T170000Z
+DTEND;TZID=UTC:20260512T180000Z
+SUMMARY:[WSK] Article #003 publish target — Dave
+DESCRIPTION:[WSK] Article #003 publish target\nOwner: Dave\nStatus: ⏳ Scheduled\nNotes: Automate Client Onboarding
+CATEGORIES:Work
+STATUS:TENTATIVE
+DTSTAMP:20260423T215120Z
+END:VEVENT
+
+BEGIN:VEVENT
+UID:worksyemkit-014@openclaw
+DTSTART;TZID=UTC:20260514T170000Z
+DTEND;TZID=UTC:20260514T180000Z
+SUMMARY:[WSK] Article #003 hard deadline — Adrian
+DESCRIPTION:[WSK] Article #003 hard deadline\nOwner: Adrian\nStatus: ⏳ Scheduled\nNotes: Final submission date
+CATEGORIES:Work
+STATUS:TENTATIVE
+DTSTAMP:20260423T215120Z
+END:VEVENT
+
+BEGIN:VEVENT
+UID:worksyemkit-015@openclaw
+DTSTART;TZID=UTC:20260521T170000Z
+DTEND;TZID=UTC:20260521T180000Z
+SUMMARY:[WSK] Week 4 milestone — Dave
+DESCRIPTION:[WSK] Week 4 milestone\nOwner: Dave\nStatus: ⏳ Scheduled\nNotes: Newsletter launch + social promotion
+CATEGORIES:Work
+STATUS:TENTATIVE
+DTSTAMP:20260423T215120Z
+END:VEVENT
+
+BEGIN:VEVENT
+UID:worksyemkit-016@openclaw
+DTSTART;TZID=UTC:20260528T170000Z
+DTEND;TZID=UTC:20260528T180000Z
+SUMMARY:[WSK] Article #4 publish target — Claire
+DESCRIPTION:[WSK] Article #4 publish target\nOwner: Claire\nStatus: ⏳ Planned\nNotes: Best Invoicing Tools
+CATEGORIES:Work
+STATUS:TENTATIVE
+DTSTAMP:20260423T215120Z
+END:VEVENT
+
+BEGIN:VEVENT
+UID:worksyemkit-017@openclaw
+DTSTART;TZID=UTC:20260604T170000Z
+DTEND;TZID=UTC:20260604T180000Z
+SUMMARY:[WSK] Article #5 publish target — Mason
+DESCRIPTION:[WSK] Article #5 publish target\nOwner: Mason\nStatus: ⏳ Planned\nNotes: Notion for Client Management
+CATEGORIES:Work
+STATUS:TENTATIVE
+DTSTAMP:20260423T215120Z
+END:VEVENT
+
+BEGIN:VEVENT
+UID:worksyemkit-018@openclaw
+DTSTART;TZID=UTC:20260611T170000Z
+DTEND;TZID=UTC:20260611T180000Z
+SUMMARY:[WSK] Article #6 publish target — Adrian
+DESCRIPTION:[WSK] Article #6 publish target\nOwner: Adrian\nStatus: ⏳ Planned\nNotes: Freelance Contract Templates
+CATEGORIES:Work
+STATUS:TENTATIVE
+DTSTAMP:20260423T215120Z
+END:VEVENT
+
+BEGIN:VEVENT
+UID:worksyemkit-019@openclaw
+DTSTART;TZID=UTC:20260618T170000Z
+DTEND;TZID=UTC:20260618T180000Z
+SUMMARY:[WSK] Article #7 publish target — Mason
+DESCRIPTION:[WSK] Article #7 publish target\nOwner: Mason\nStatus: ⏳ Planned\nNotes: Time Tracking for Freelancers
+CATEGORIES:Work
+STATUS:TENTATIVE
+DTSTAMP:20260423T215120Z
+END:VEVENT
+
+BEGIN:VEVENT
+UID:worksyemkit-020@openclaw
+DTSTART;TZID=UTC:20260625T170000Z
+DTEND;TZID=UTC:20260625T180000Z
+SUMMARY:[WSK] Article #8 publish target — Adrian
+DESCRIPTION:[WSK] Article #8 publish target\nOwner: Adrian\nStatus: ⏳ Planned\nNotes: Zapier for Freelancers
+CATEGORIES:Work
+STATUS:TENTATIVE
+DTSTAMP:20260423T215120Z
+END:VEVENT
+
+BEGIN:VEVENT
+UID:worksyemkit-021@openclaw
+DTSTART;TZID=UTC:20260702T170000Z
+DTEND;TZID=UTC:20260702T180000Z
+SUMMARY:[WSK] Article #9 publish target — Claire
+DESCRIPTION:[WSK] Article #9 publish target\nOwner: Claire\nStatus: ⏳ Planned\nNotes: ClickUp Setup Guide
+CATEGORIES:Work
+STATUS:TENTATIVE
+DTSTAMP:20260423T215120Z
+END:VEVENT
+
+BEGIN:VEVENT
+UID:worksyemkit-022@openclaw
+DTSTART;TZID=UTC:20260709T170000Z
+DTEND;TZID=UTC:20260709T180000Z
+SUMMARY:[WSK] Article #10 publish target — Mason
+DESCRIPTION:[WSK] Article #10 publish target\nOwner: Mason\nStatus: ⏳ Planned\nNotes: Freelance Proposal Templates
+CATEGORIES:Work
+STATUS:TENTATIVE
+DTSTAMP:20260423T215120Z
+END:VEVENT
+
+BEGIN:VEVENT
+UID:worksyemkit-023@openclaw
+DTSTART;TZID=UTC:20260716T170000Z
+DTEND;TZID=UTC:20260716T180000Z
+SUMMARY:[WSK] Phase 1 Review — Coach
+DESCRIPTION:[WSK] Phase 1 Review\nOwner: Coach\nStatus: ⏳ Planned\nNotes: Month 3 review + what's next
+CATEGORIES:Review
+STATUS:TENTATIVE
+DTSTAMP:20260423T215120Z
+END:VEVENT
+
+BEGIN:VEVENT
+UID:worksyemkit-024@openclaw
+DTSTART;TZID=UTC:20260723T170000Z
+DTEND;TZID=UTC:20260723T180000Z
+SUMMARY:[WSK] Phase 1 End Date — All
+DESCRIPTION:[WSK] Phase 1 End Date\nOwner: All\nStatus: ⏳ Planned\nNotes: Success metrics evaluation
+CATEGORIES:Work
+STATUS:TENTATIVE
+DTSTAMP:20260423T215120Z
+END:VEVENT
+END:VCALENDAR
